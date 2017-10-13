@@ -10,13 +10,16 @@ public class LinkNode {
 
 		
 		
-		pList.addFirst(4);
-		pList.addFirst(5);
-		pList.addFirst(6);
-		pList.addFirst(7);
-		pList.addFirst(8);
+		pList.addLast(4);
+		pList.addLast(5);
+		pList.addLast(6);
+		pList.addLast(7);
+		pList.addLast(8);
 		
 		pList.display();
+		pList.reverse(null);
+		pList.display();
+
 
 
 	}

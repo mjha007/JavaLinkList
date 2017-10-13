@@ -52,6 +52,25 @@ public class PriceList {
 		
 	}
 	
+	
+	void reverse(Node link)
+	{
+		if(Head.nxt==null)
+		{
+			Head.nxt=link;
+			return;
+		}
+		else
+		{
+		Node tmp = Head;
+		Head=Head.nxt;
+		tmp.nxt=link;
+		reverse(tmp);
+		}
+		
+		
+	}
+	
 
 	
 	
